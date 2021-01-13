@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+
+
+require_relative '../lib/dunkin_coffee_menu.rb'
+
+
+
+DunkinCoffeeMenu::CLI.new.run
