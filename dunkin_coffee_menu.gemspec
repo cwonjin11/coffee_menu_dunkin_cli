@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Wonjin Cho"]
   spec.email         = ["cwonjin1@gmail.com"]
 
-  spec.summary       = "https://github.com/cwonjin11/coffee_menu_dunkin_cli"
-  spec.description   = "https://github.com/cwonjin11/coffee_menu_dunkin_cli"
+  spec.summary       = "Menu app to see Dunkin coffee list and brief descriptions"
+  spec.description   =  "Dunkin espresso and coffee menu"
   spec.homepage      = "https://github.com/cwonjin11/coffee_menu_dunkin_cli"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
@@ -39,3 +39,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency "nokogiri"
   spec.add_dependency "colorize"
 end
+

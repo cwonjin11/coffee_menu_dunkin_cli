@@ -1,8 +1,7 @@
 
 
 require_relative "./dunkin_coffee_menu/version"
-require_relative "./dunkin_coffee_menu/cli"
-# require_relative "./dunkin_coffee_menu/description"
+require_relative "./dunkin_coffee_menu/cli" 
 require_relative "./dunkin_coffee_menu/menu"
 require_relative "./dunkin_coffee_menu/scraper"
 require "nokogiri" 
@@ -14,5 +13,6 @@ module DunkinCoffeeMenu
   class Error < StandardError; end
   # Your code goes here...
 end
+
 
 
