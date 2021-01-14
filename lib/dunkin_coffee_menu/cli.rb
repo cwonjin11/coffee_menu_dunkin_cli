@@ -1,8 +1,8 @@
 class DunkinCoffeeMenu::CLI
     
-    #greeting user
+   
     def run 
-        system("clear")  #clear entire terminal
+        system("clear")  
         greeting
         get_menu
         list_menu
@@ -48,7 +48,6 @@ class DunkinCoffeeMenu::CLI
     end
 
     def show_description_for(input)
-
         menu = @menu[input.to_i - 1]
         puts "\nHere are the description for ".colorize(:light_magenta) + "#{menu.name}\n".colorize(:yellow)
         puts menu.get_subtitle
@@ -94,142 +93,3 @@ end
 
 
 
-
-
-    #     chosen_menu = gets.strip.to_i
-    #     if chosen_menu == 0
-    #         # binding.pry
-    #         puts "I did not understand, could you try again?"
-    #         chosen_menu = gets.strip.to_i
-    #     end
-    #     show_description_for(chosen_menu)
-    # end
-  
-
-
-
-
-
-    # def more_details
-        # menu = @menu[chosen_menu - 1]
-        # puts menu.get_calories
-        # binding.pry
-
-        # @details = DunkinCoffeeMenu::Scraper.details
-        # @detials.each.with_index (1) do |details , i|
-        #     puts "Total Calories #{details.caloires}, Allergens #{details.allergens}, Ingredients #{details.ingredients}" # Scraping item details needed!!
-        # end
-        
-
-
-    #         puts " Do you want to get back to the list of menu? Enter 'Y' or 'N' to exit: " 
-    #                 input = gets.strip.downcase
-    #                 if input == "y" 
-    #                     list_menu
-    #                 else input == "n" 
-    #                     end_program
-    #                 end
-
-
-    # end
-
-        # show_description_for(chosen_menu)
-
-        
-        # details = 
-
-        # def get_animal_description(input)
-        #     animal = EndangeredAnimals::Scraper.get_animal_information(input)
-        
-        #     puts "", "                 ~* #{animal.name} *~"
-        #     puts "-------------------------------------------------------------------"
-        #     puts "Scientific Name:          #{animal.scientific_name}"
-        #     puts "Status:                   #{animal.status}"
-        #     puts "Population:               #{animal.population}"
-        #     puts "Habitat:                  #{animal.habitat}"
-        #     puts "Places:                   #{animal.place}"
-        #     puts "-----------------"
-        #     puts "| Description:  |"
-        #     puts "-----------------", "#{animal.description}"
-        #   end
-
-
-
-
-
-
-
-
-
-
-
-
-
-        # DunkinCoffeeMenu::Menu.new("coffee")  #test file
-        # DunkinCoffeeMenu::Menu.new("Latte")  #test file
-       
-            # #menu
-    # def list_menu 
-    #     # list all times below
-    #     puts "Please choose a menu below: "
-    #     puts "============================="
-    #     menu = scrape_coffee_menu
-
-    #     #list_menu 
-    #     input = gets.strip.downcase
-    #     choose_option(input)
-    #     return input
-    # end
-
-    # # def scrape_coffee_menu
-    # #     Scraper.scrape_coffee_menu
-    # #     puts "=============================="
-
-    # # end
-
-
-
-
-
-
-
-
-            
-        # a = menu.description
-        # puts a
-        # binding.pry
-        # binding.pry
-
-    #     input = nil
-    #     input != 'exit'
-    #     puts "Would you like to see more details? Enter 'Y' or 'N' get back to the list or 'exit' to end the program "
-    #        input = gets.strip.downcase
-            
-    #         if input == "y" 
-    #             # puts "||Calories||" 
-    #             # puts menu.get_calories
-    #             puts "||Allerens||" 
-    #             puts menu.get_allergens
-    #             puts "||Ingredients||" 
-    #             puts menu.get_ingredients
-    #             # puts menu.get_ingredients
-    #         elsif input == "n"
-    #             list_menu
-    #         elsif input == 'exit'
-    #             end_program
-
-    #         else 
-    #             put "i don't understand. could you try again?"
-
-    #         end
-            
-    #         puts " Do you want to get back to the list of menu? Enter 'Y' or 'N' to exit the program  : " 
-    #         input = gets.strip.downcase
-    #         if input == "y" 
-    #             list_menu
-    #         else input == "n" 
-    #             end_program
-    #         end
-        
-
-    # end

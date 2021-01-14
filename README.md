@@ -1,8 +1,8 @@
 # DunkinCoffeeMenu
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/dunkin_coffee_menu`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to Dunkin Coffee Menu
+From this application, you will easily find Espresso & Coffee Menu with brief descriptions.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This is the short cut to have Dunkin coffee menu with description rather than using  Dunkin web page. 
 
 ## Development
 

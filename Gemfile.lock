@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dunkin_coffee_menu (0.1.1)
+    dunkin_coffee_menu (0.1.0)
       colorize
       nokogiri
 
