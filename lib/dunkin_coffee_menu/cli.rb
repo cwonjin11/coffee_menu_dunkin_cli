@@ -10,7 +10,8 @@ class DunkinCoffeeMenu::CLI
 
 
     def greeting      
-        puts "Welcome to Dunkin Espresso & Coffee menu!\n".colorize(:light_magenta).bold  
+        puts "\nWelcome to Dunkin Espresso & Coffee menu!\n".colorize(:light_magenta).bold  
+        puts "You can have details about the menu you have selected.\n".colorize(:light_magenta).bold 
     end
 
 
