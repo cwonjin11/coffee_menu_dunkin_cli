@@ -1,35 +1,17 @@
 # DunkinCoffeeMenu
 
-Welcome to Dunkin Coffee Menu
-From this application, you will easily find Espresso & Coffee Menu with brief descriptions.
-
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'dunkin_coffee_menu'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install dunkin_coffee_menu
+This is CLI application that allows a user to get information of Dunkin' Espresso and Coffee menu. 
+By taking user input, details of the seleted menu can be obtained through the Dunkin' Donuts website.
 
 ## Usage
 
-This is the short cut to have Dunkin coffee menu with description rather than using  Dunkin web page. 
+In your terminal, run "bin/menu" to execute the program.
 
-## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+## License
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+The gem is available as open source under the terms of the MIT License.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/dunkin_coffee_menu.
+Bug reports and pull requests are welcome on GitHub at https://github.com/cwonjin11/coffee_menu_dunkin_cli.
